@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Club Sportif LCB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png.png" alt="Logo LCB" class="brand-logo">
+        <span class="brand-name"> Club Sportif LCB</span>
+      </a>
+      <nav class="menu">
+        <a class="menu-link" href="index.html">Accueil</a>
+        <a class="menu-link" href="apropos.html">À propos</a>
+        <a class="menu-link" href="team.html">Équipe</a>
+        <a class="menu-link active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-small" style="background-image:url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1400')">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-kicker"> CONTACT</p>
+      <h1 class="hero-title">Contactez le Club LCB</h1>
+      <p class="hero-subtitle">
+        Tu veux t'inscrire, poser une question ou proposer une idée ?
+        Contacte-nous via le formulaire ou retrouve-nous au lycée.
+      </p>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section class="mini-cards">
+      <article class="mini-card">
+        <p class="mini-top">Téléphone</p>
+        <h3>+221 XX XXX XX XX</h3>
+        <p class="muted">Secrétariat du LCB — du lundi au vendredi.</p>
+      </article>
+
+      <article class="mini-card">
+        <p class="mini-top">Email</p>
+        <h3>clubsport@lcb.sn</h3>
+        <p class="muted">Réponse sous 48h (jours scolaires).</p>
+      </article>
+
+      <article class="mini-card">
+        <p class="mini-top">Adresse</p>
+        <h3>LCB — Dakar, Sénégal</h3>
+        <p class="muted">Terrain de sport disponible après les cours.</p>
+      </article>
+    </section>
+
+    <section class="map-card">
+      <h2>Où nous trouver</h2>
+      <div class="map-embed">
+        <iframe
+          title="Carte Dakar"
+          src="https://www.google.com/maps?q=Dakar%2C%20Senegal&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section class="form-card">
+      <h2>Formulaire de contact</h2>
+      <p class="muted">
+        Remplis ce formulaire pour nous contacter ou t'inscrire au club.
+      </p>
+
+      <form class="form" action="#" method="post">
+        <div class="row">
+          <div class="field">
+            <label for="nom">Nom complet</label>
+            <input id="nom" name="nom" type="text" placeholder="Ton nom et prénom" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="exemple@mail.com" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="classe">Classe</label>
+            <input id="classe" name="classe" type="text" placeholder="Ex : 3ème A, Terminale C…">
+          </div>
+          <div class="field">
+            <label for="sport">Sport souhaité</label>
+            <input id="sport" name="sport" type="text" placeholder="Ex : Football, Basketball…">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Ton message ou ta demande d'inscription…" required></textarea>
+        </div>
+
+        <button class="btn" type="submit">Envoyer ma demande</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h3>On t'attend sur le terrain !</h3>
+        <p class="muted">Viens t'entraîner avec nous dès cette semaine.</p>
+      </div>
+      <a class="btn btn-outline" href="index.html">Retour à l'accueil</a>
+    </div>
+    <p class="copyright">© 2026 — Club Sportif LCB — Lycée Collège Bilingue de Dakar</p>
+  </footer>
+
+</body>
+</html>
